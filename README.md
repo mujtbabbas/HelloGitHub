@@ -13,6 +13,20 @@
     <a href="https://weibo.com/hellogithub"><img src="https://img.shields.io/badge/%E6%96%B0%E6%B5%AA-Weibo-red.svg?style=popout-square" alt="Sina Weibo"></a>
 </p>
 
+## About This Standalone Edition
+
+- **Main repository:** [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
+- **Based on version:** upstream release `vol.126` (commit `030121514da552ed91e640ef8bde4083c753dd52`, snapshotted 2026-10-20; upstream HEAD dated 2026-09-28)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - .github/dependabot.yml — weekly GitHub Actions and pip (script/github_bot) dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the monthly magazine content (upstream ships no workflows; this is its first)
+  - .editorconfig — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to 521xueweihan (HelloGitHub) and the upstream contributors. There is NO standalone licence file in the upstream tree: the work is declared under CC BY-NC-ND 4.0 in the upstream READMEs (see `README_en.md`, “Licence” section), and that declaration is preserved exactly as-is. This edition adds the enhancements listed above only.
+
 ## 简介
 
 HelloGitHub 分享 GitHub 上有趣、入门级的开源项目。**每月 28 号**以月刊的形式[更新发布](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA5MzYyNzQ0MQ==&action=getalbum&album_id=1331197538447310849#wechat_redirect)，内容包括：**有趣、入门级的开源项目**、**开源书籍**、**实战项目**、**企业级项目**等，让你用很短时间感受到开源的魅力，爱上开源！
